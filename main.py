@@ -21,8 +21,8 @@ if(app_mode == 'Home'):
     st.header("PLANT DISEASE RECOGNITION SYSTEM")
     image_path ='hpimg.jpg'
     st.image(image_path,use_column_width=True)
-    st.markdown("""<div style="text-align: justify;
-    Welcome to the Plant Disease Recognition System! 🌿🔍
+    st.markdown(<div style="text-align: justify;
+    """Welcome to the Plant Disease Recognition System! 🌿🔍
     
 In modern agriculture, plant health is crucial to ensuring high yields and sustainable farming practices. However, plant diseases remain a significant challenge, often leading to substantial losses if not detected and managed promptly. To address this, we present an advanced Plant Disease Detection System, designed to be both user-friendly and highly accurate.
 
@@ -59,9 +59,9 @@ By combining ease of use with cutting-edge precision, this Plant Disease Detecti
 ### Get Started
 Navigate to the **Disease Recognition** page in the sidebar to upload an image and witness the capabilities of our Plant Disease Recognition System! 
 ### About Us
-Learn more about the project, and our goals on the **About** page.
-    </div>', unsafe_allow_html=True
-    """)
+Learn more about the project, and our goals on the **About** page."""
+    </div>, unsafe_allow_html=True
+    )
 
 #About Project
 elif(app_mode == 'About'):
