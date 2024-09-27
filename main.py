@@ -79,10 +79,11 @@ elif(app_mode == 'Disease Detection'):
     st.header("Disease Detection")
     test_image = st.file_uploader('Choose an image:')
     #Show Image Button
-    if(st.button('Show Image')):
-        if test_image == 'None':
-            st.write("Please INSERT an Image")
-        st.image(test_image,use_column_width=True)
+    try:
+        if(st.button('Show Image')):
+            st.image(test_image,use_column_width=True)
+    except:
+        st.write("Please INSERT an Image")    
     #Predict button
     if(st.button('Predict')):
         with st.spinner("Wait for it..."):
