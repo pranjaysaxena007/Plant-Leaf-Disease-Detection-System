@@ -24,18 +24,38 @@ if(app_mode == 'Home'):
     st.markdown("""
     Welcome to the Plant Disease Recognition System! 🌿🔍
     
-    Our mission is to help in identifying plant diseases efficiently. Upload an image of a plant, and our system will analyze it to detect any signs of diseases. Together, let's protect our crops and ensure a healthier harvest!
+    In modern agriculture, plant health is crucial to ensuring high yields and sustainable farming practices. However, plant diseases remain a significant challenge, often leading to substantial losses if not detected and managed promptly. To address this, we present an advanced Plant Disease Detection System, designed to be both user-friendly and highly accurate.
 
+This system leverages state-of-the-art technologies, including image processing and machine learning algorithms, to rapidly and efficiently identify diseases at early stages. With a simple, intuitive interface, it caters to farmers, agronomists, and researchers, allowing them to upload plant images and receive instant, reliable diagnoses. The system is optimized for high accuracy, reducing the margin for error, and ensuring efficient disease management to safeguard crops and improve agricultural productivity.
+
+By combining ease of use with cutting-edge precision, this Plant Disease Detection System is set to revolutionize plant health monitoring, enabling smarter, faster, and more effective responses to plant diseases.
     ### How It Works
-    1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with suspected diseases.
-    2. **Analysis:** Our system will process the image using advanced algorithms to identify potential diseases.
+    1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with any suspected diseases.
+    2. **Analysis:** Our system will process the image using advanced algorithms to identify potential disease.
     3. **Results:** View the results and recommendations for further action.
 
     ### Why Choose Us?
-    - **Accuracy:** Our system utilizes state-of-the-art machine learning techniques for accurate disease detection.
-    - **User-Friendly:** Simple and intuitive interface for seamless user experience.
-    - **Fast and Efficient:** Receive results in seconds, allowing for quick decision-making.
+    **Why Choose This Plant Disease Detection App?**
 
+1. **High Accuracy**: The app utilizes advanced machine learning models to provide highly accurate disease detection, ensuring reliable diagnoses for early intervention.
+
+2. **User-Friendly Interface**: Designed for all users, from farmers to researchers, the app features a simple, intuitive interface that makes disease detection quick and easy.
+
+3. **Fast and Efficient**: Detect plant diseases within seconds, allowing users to take immediate action to protect their crops and minimize losses.
+
+4. **Early Detection Capability**: With its advanced technology, the app can identify diseases in the early stages, giving users the chance to implement treatment before significant damage occurs.
+
+5. **Wide Range of Disease Identification**: The app supports the identification of numerous plant diseases across various crops, making it versatile and useful for different types of agriculture.
+
+6. **Real-Time Results**: Instant feedback allows users to make timely decisions, saving time and resources compared to traditional diagnostic methods.
+
+7. **Portable and Accessible**: Available on mobile devices, the app can be used anywhere, even in the field, making it a practical tool for on-the-go farmers and agronomists.
+
+8. **Cost-Effective Solution**: By reducing the need for expert consultations or laboratory testing, the app provides a cost-effective way to monitor and manage plant health.
+
+9. **Continuous Learning and Updates**: The app is regularly updated with new disease data and improved algorithms to keep up with the latest agricultural trends and challenges.
+
+10. **Sustainability and Productivity**: By helping farmers detect and manage diseases efficiently, the app supports sustainable farming practices and contributes to higher crop yields.
     ### Get Started
     Click on the **Disease Recognition** page in the sidebar to upload an image and experience the power of our Plant Disease Recognition System!
 
