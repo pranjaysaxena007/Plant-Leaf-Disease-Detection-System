@@ -83,14 +83,16 @@ elif(app_mode == 'Disease Detection'):
         if(st.button('Show Image')):
             st.image(test_image,use_column_width=True)
     except:
-        st.write("Please INSERT an Image")    
+        st.write("Please INSERT an Image for Viewing")    
     #Predict button
     if(st.button('Predict')):
-        with st.spinner("Wait for it..."):
-            st.markdown("""#### Our prediction""")
-            result_index = model_prediction(test_image)
-            # Define Class
-            class_name = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
+        try:
+            
+            with st.spinner("Wait for it..."):
+                st.markdown("""#### Our prediction""")
+                result_index = model_prediction(test_image)
+                # Define Class
+               class_name = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
                     'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew', 
                     'Cherry_(including_sour)___healthy', 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 
                     'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 
@@ -104,6 +106,9 @@ elif(app_mode == 'Disease Detection'):
                     'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite', 
                     'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus',
                       'Tomato___healthy']
-            st.success(f'''Model is Predicting it's a  ""{class_name[result_index]}"" ''')
-            st.snow()
+                st.success(f'''Model is Predicting it's a  ""{class_name[result_index]}"" ''')
+                st.snow()
+        except:
+            st.write("Please INSERT an Image for Prediction")
+            
 
