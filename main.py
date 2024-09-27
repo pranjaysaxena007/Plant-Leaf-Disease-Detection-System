@@ -30,12 +30,12 @@ This system leverages state-of-the-art technologies, including image processing 
 
 By combining ease of use with cutting-edge precision, this Plant Disease Detection System is set to revolutionize plant health monitoring, enabling smarter, faster, and more effective responses to plant diseases.
 ### How It Works
-    1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with any suspected diseases.
-    2. **Analysis:** Our system will process the image using advanced algorithms to identify potential disease.
-    3. **Results:** View the results and recommendations for further action.
+1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with any suspected diseases.
+2. **Analysis:** Our system will process the image using advanced algorithms to identify potential disease.
+3. **Results:** View the results and recommendations for further action.
 
-    ### Why Choose Us?
-    **Why Choose This Plant Disease Detection App?**
+### Why Choose Us?
+**Why Choose This Plant Disease Detection App?**
 
 1. **High Accuracy**: The app utilizes advanced machine learning models to provide highly accurate disease detection, ensuring reliable diagnoses for early intervention.
 
@@ -56,11 +56,10 @@ By combining ease of use with cutting-edge precision, this Plant Disease Detecti
 9. **Continuous Learning and Updates**: The app is regularly updated with new disease data and improved algorithms to keep up with the latest agricultural trends and challenges.
 
 10. **Sustainability and Productivity**: By helping farmers detect and manage diseases efficiently, the app supports sustainable farming practices and contributes to higher crop yields.
-    ### Get Started
-    Click on the **Disease Recognition** page in the sidebar to upload an image and experience the power of our Plant Disease Recognition System!
-
-    ### About Us
-    Learn more about the project, our team, and our goals on the **About** page.
+### Get Started
+Navigate to the **Disease Recognition** page in the sidebar to upload an image and witness the capabilities of our Plant Disease Recognition System! 
+### About Us
+Learn more about the project, and our goals on the **About** page.
     """)
 
 #About Project
@@ -81,7 +80,7 @@ elif(app_mode == 'Disease Detection'):
     test_image = st.file_uploader('Choose an image:')
     #Show Image Button
     if(st.button('Show Image')):
-        if test_image == 'NoneType':
+        if test_image == 'None':
             st.write("Please INSERT an Image")
         st.image(test_image,use_column_width=True)
     #Predict button
