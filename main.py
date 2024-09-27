@@ -61,6 +61,8 @@ elif(app_mode == 'Disease Detection'):
     test_image = st.file_uploader('Choose an image:')
     #Show Image Button
     if(st.button('Show Image')):
+        if test_image == 'NoneType':
+            st.write("Please INSERT an Image")
         st.image(test_image,use_column_width=True)
     #Predict button
     if(st.button('Predict')):
