@@ -22,7 +22,7 @@ if(app_mode == 'Home'):
     image_path ='hpimg.jpg'
     st.image(image_path,use_column_width=True)
     st.markdown("""<div style="text-align: justify";>
-    Welcome to the Plant Disease Recognition System! 🌿🔍
+    ### Welcome to the Plant Disease Recognition System! 🌿🔍
     
 In modern agriculture, plant health is crucial to ensuring high yields and sustainable farming practices. However, plant diseases remain a significant challenge, often leading to substantial losses if not detected and managed promptly. To address this, we present an advanced Plant Disease Detection System, designed to be both user-friendly and highly accurate.
 
