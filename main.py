@@ -26,9 +26,9 @@ if(app_mode == 'Home'):
     
     In modern agriculture, plant health is crucial to ensuring high yields and sustainable farming practices. However, plant diseases remain a significant challenge, often leading to substantial losses if not detected and managed promptly. To address this, we present an advanced Plant Disease Detection System, designed to be both user-friendly and highly accurate.
 
-This system leverages state-of-the-art technologies, including image processing and machine learning algorithms, to rapidly and efficiently identify diseases at early stages. With a simple, intuitive interface, it caters to farmers, agronomists, and researchers, allowing them to upload plant images and receive instant, reliable diagnoses. The system is optimized for high accuracy, reducing the margin for error, and ensuring efficient disease management to safeguard crops and improve agricultural productivity.
+    This system leverages state-of-the-art technologies, including image processing and machine learning algorithms, to rapidly and efficiently identify diseases at early stages. With a simple, intuitive interface, it caters to farmers, agronomists, and researchers, allowing them to upload plant images and receive instant, reliable diagnoses. The system is optimized for high accuracy, reducing the margin for error, and ensuring efficient disease management to safeguard crops and improve agricultural productivity.
 
-By combining ease of use with cutting-edge precision, this Plant Disease Detection System is set to revolutionize plant health monitoring, enabling smarter, faster, and more effective responses to plant diseases.
+    By combining ease of use with cutting-edge precision, this Plant Disease Detection System is set to revolutionize plant health monitoring, enabling smarter, faster, and more effective responses to plant diseases.
     ### How It Works
     1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with any suspected diseases.
     2. **Analysis:** Our system will process the image using advanced algorithms to identify potential disease.
