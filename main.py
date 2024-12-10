@@ -58,6 +58,7 @@ By combining ease of use with cutting-edge precision, this Plant Disease Detecti
 10. **Sustainability and Productivity**: By helping farmers detect and manage diseases efficiently, the app supports sustainable farming practices and contributes to higher crop yields.
 ### Get Started
 Navigate to the **Disease Recognition** page in the sidebar to upload an image and witness the capabilities of our Plant Disease Recognition System! 
+
 ### About Us
 Learn more about the project, and our goals on the **About** page.
     </div>""", unsafe_allow_html=True
