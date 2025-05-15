@@ -20,7 +20,7 @@ app_mode = st.sidebar.selectbox("Select Page",['Home','About','Disease Detection
 if(app_mode == 'Home'):
     st.header("PLANT DISEASE RECOGNITION SYSTEM")
     image_path ='hpimg.jpg'
-    st.image(image_path,use_column_width=True)
+    st.image(image_path,use_container_width=True)
     st.markdown("""<div style="text-align: justify";>
 Welcome to the Plant Disease Recognition System! 🌿🔍
     
@@ -87,7 +87,7 @@ elif(app_mode == 'Disease Detection'):
     #Show Image Button
     try:
         if(st.button('Show Image')):
-            st.image(test_image,use_column_width=True)
+            st.image(test_image,use_container_width=True)
     except:
         st.write("Please INSERT an Image for Viewing")    
     #Predict button
